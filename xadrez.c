@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-int numero1;
+
 // Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
     // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-
+    int torren, bispon, cavalon, rainhan;
+    torren = 8, bispon = 8, cavalon = 3, rainhan = 8;
+     
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
 
